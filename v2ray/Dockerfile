@@ -3,7 +3,7 @@ LABEL maintainer="Ein Verne <einverne@gmail.com>"
 
 ENV TZ 'Asia/Shanghai'
 
-ENV V2RAY_VERSION v3.10
+ENV V2RAY_VERSION v4.23.1
 
 RUN apk upgrade --update \
     && apk add \
